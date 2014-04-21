@@ -16,7 +16,7 @@ class osx::dock::minimize_to_icon ($minimize_to_icon = true){
     domain => 'com.apple.dock',
     key    => 'minimize_to_icon',
     type   => 'bool',
-    value  => $minimize-to-icon,
+    value  => $minimize_to_icon,
     user   => $::boxen_user,
     notify => Exec['killall Dock'];
   }
