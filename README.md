@@ -37,6 +37,8 @@ Just `include` any of these in your manifest.
 * `osx::dock::dim_hidden_apps` - dims icons of hidden apps
 * `osx::dock::hide_indicator_lights` - remove the indicator lights below running
   apps
+* `osx::dock::minimize-to-icon` - will minimize your windows to the application icon, 
+  rather than to the right hand side of the dock.
 
 ### Finder Settings
 
