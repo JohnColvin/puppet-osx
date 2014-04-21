@@ -1,5 +1,5 @@
-# Public: Sets whether widowns are minimized to the application icon,
-# or to the right hand side of the dock.
+# Public: Minimize your windows to the application icon, rather than to the
+# right hand side of the dock
 #
 # Examples
 #
