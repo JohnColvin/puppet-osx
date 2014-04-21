@@ -3,18 +3,18 @@
 #
 # Examples
 #
-#   # Set minimize-to-icon to true
-#   include osx::dock::minimize-to-icon
+#   # Set minimize_to_icon to true
+#   include osx::dock::minimize_to_icon
 #
 #
 
 
-class osx::dock::minimize-to-icon ($minimize-to-icon = true){
+class osx::dock::minimize_to_icon ($minimize_to_icon = true){
   include osx::dock
 
-  boxen::osx_defaults { 'minimize-to-icon':
+  boxen::osx_defaults { 'minimize_to_icon':
     domain => 'com.apple.dock',
-    key    => 'minimize-to-icon',
+    key    => 'minimize_to_icon',
     type   => 'bool',
     value  => $minimize-to-icon,
     user   => $::boxen_user,
